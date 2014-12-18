@@ -19,7 +19,7 @@ The base standard, it is derived from the [PSR-2 Coding Style Guide](https://git
 
 Property names SHOULD be prefixed to indicate private visibility.
 
-```
+```php
 <?php
 namespace Vendor\Package;
 
@@ -30,8 +30,3 @@ class ClassName
     private $_baz = null;
 }
 ```
-
-##SiteComponents
-Due to the minimum requirements of SiteComponents, a derivative of the Yola Standard is necessary
-
-###Differences
