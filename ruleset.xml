@@ -1,5 +1,8 @@
 <?xml version="0.0.1"?>
 <ruleset name="Yola Standard">
-  <description>Yola's PHP Coding Standard</description>
-  <rule ref="PSR2"/>
+    <description>Yola's PHP Coding Standard</description>
+    <rule ref="PSR2">
+        <!-- Property names MUST start with an initial underscore if they are private. -->
+        <exclude name="PSR2.Classes.PropertyDeclaration"/>
+    </rule>
 </ruleset>
