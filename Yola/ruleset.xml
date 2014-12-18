@@ -4,7 +4,5 @@
     <rule ref="PSR2">
         <!-- Property names MUST start with an initial underscore if they are private. -->
         <exclude name="PSR2.Classes.PropertyDeclaration"/>
-        <!-- File docs are not necessary. -->
-        <exclude name="PEAR.Commenting.FileComment"/>
     </rule>
 </ruleset>
