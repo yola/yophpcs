@@ -3,6 +3,7 @@
     "description": "Yola.com PHP Code Standard",
     "minimum-stability": "dev",
     "require": {
-        "php": ">=5.1.2"
+        "php": ">=5.1.2",
+        "squizlabs/php_codesniffer": "2.*"
     }
 }
