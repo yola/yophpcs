@@ -20,3 +20,10 @@ class ClassName
     private $_baz = null;
 }
 ```
+
+Using the Code Sniffer
+----------------------
+```
+$ ./vendor/bin/phpcs --extensions=php --standard=/path/to/yophpcs/Standard /path/to/project
+```
+
