@@ -1,0 +1,4 @@
+<?xml version="0.0.1"?>
+<ruleset name="MyStandard">
+  <description>Yola's PHP Coding Standard</description>
+</ruleset>

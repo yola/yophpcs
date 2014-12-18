@@ -1,0 +1,8 @@
+{
+    "name": "yola/yophpcs",
+    "description": "Yola.com PHP Code Standard",
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.1.2"
+    }
+}
