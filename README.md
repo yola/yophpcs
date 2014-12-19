@@ -8,7 +8,10 @@ Using the Code Sniffer
 $ ./vendor/bin/phpcs --extensions=php --standard=/path/to/yophpcs/Standard /path/to/project
 ```
 
-##Yola Standard
+Standards
+---------
+
+##Yola
 The base standard, it is derived from the [PSR-2 Coding Style Guide](https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-2-coding-style-guide.md).
 
 ###Differences
