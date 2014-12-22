@@ -1,27 +1,24 @@
 <?php
 
 
-class PrivatePropertiesUnderscoreSniffTest extends \Codeception\TestCase\Test
+class PrivatePropertiesUnderscoreSniffTest extends SniffTest
 {
     use Codeception\Specify;
 
-    /**
-     * @var \UnitTester
+    /*
+     * @var string
      */
-    protected $tester;
+    protected $standard = 'Yola';
 
-    protected $target = 'Yola/Properties/PrivatePropertiesUnderscore';
+    /*
+     * @var string
+     */
+    protected $section = 'Properties';
 
-    protected $targetLoc;
-
-    protected function _before()
-    {
-        $this->targetLoc = 'tests/unit/targets/' . $this->target . '.php.test';
-    }
-
-    protected function _after()
-    {
-    }
+    /*
+     * @var string
+     */
+    protected $sniff = 'PrivatePropertiesUnderscore';
 
     public function testSniff()
     {
