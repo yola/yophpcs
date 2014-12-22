@@ -24,8 +24,8 @@ class PrivatePropertiesUnderscoreSniffTest extends SniffTest
     {
         $this->specify('underscore is required for private visibility', function() {
             $this->tester->runShellCommand("vendor/bin/phpcs $this->targetLoc --extensions=.php.test --standard=Yola/", false);
-            verify($this->tester->seeInShellOutput('7 | ERROR | Private property name must be prefixed with underscore.'));
-            verify($this->tester->dontSeeInShellOutput('8 | ERROR | Private property name must be prefixed with underscore.'));
+            $this->tester->seeInShellOutput('7 | ERROR | Private property name must be prefixed with underscore.');
+            $this->tester->dontSeeInShellOutput('8 | ERROR | Private property name must be prefixed with underscore.');
         });
     }
 

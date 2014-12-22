@@ -14,7 +14,6 @@
     },
     "require-dev": {
         "codeception/codeception": "dev-ds/cli-allow-non-zero as 2.0.9",
-        "codeception/specify": "0.4.*",
-        "codeception/verify": "0.2.*"
+        "codeception/specify": "0.4.*"
     }
 }
