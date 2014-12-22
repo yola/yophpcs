@@ -1,22 +1,19 @@
-Yophpcs
-=======
+# Yophpcs
+
 Yophpcs is the PHP Code Sniffer for Yola that defines the PHP Coding Standards
 
-Using the Code Sniffer
-----------------------
+## Using the Code Sniffer
+
 ```
 $ ./vendor/bin/phpcs --extensions=php --standard=/path/to/yophpcs/Standard /path/to/project
 ```
 
-Standards
----------
-
-##Yola
+## Yola Standard
 The base standard, it is derived from the [PSR-2 Coding Style Guide](https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-2-coding-style-guide.md).
 
-###Differences
+### Differences
 
-####4.2 Properties
+#### 4.2 Properties
 
 Property names SHOULD be prefixed to indicate private visibility.
 
