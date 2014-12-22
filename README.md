@@ -28,3 +28,11 @@ class ClassName
     private $_baz = null;
 }
 ```
+
+## Tests
+Included are unit tests. To run tests:
+
+```
+$ ./vendor/bin/codecept run
+```
+
