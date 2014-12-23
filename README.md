@@ -33,6 +33,6 @@ class ClassName
 Included are unit tests. To run tests:
 
 ```
-$ ./vendor/bin/codecept run
+$ vendor/bin/codecept run
 ```
 
