@@ -5,7 +5,7 @@ Yophpcs is the PHP Code Sniffer for Yola that defines the PHP Coding Standards
 ## Using the Code Sniffer
 
 ```
-$ ./vendor/bin/phpcs --extensions=php --standard=/path/to/yophpcs/Standard /path/to/project
+$ vendor/bin/phpcs --extensions=php --standard=/path/to/yophpcs/Standard /path/to/project
 ```
 
 ## Yola Standard
