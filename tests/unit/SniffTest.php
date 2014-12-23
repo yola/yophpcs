@@ -1,10 +1,9 @@
 <?php
 
+namespace tests\unit;
 
 abstract class SniffTest extends \Codeception\TestCase\Test
 {
-    use Codeception\Specify;
-
     /**
      * @var \UnitTester
      */

@@ -1,9 +1,13 @@
 <?php
 
+namespace tests\unit\SniffTests;
+
+use tests\unit\SniffTest;
+
 
 class PrivatePropertiesUnderscoreSniffTest extends SniffTest
 {
-    use Codeception\Specify;
+    use \Codeception\Specify;
 
     /*
      * @var string
