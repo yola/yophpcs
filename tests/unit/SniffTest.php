@@ -20,12 +20,17 @@ class SniffTest extends \Codeception\TestCase\Test
     /**
      * If overriding this function, be sure to call parent in the function
      * parent::_before();
+     * @method _before
      */
     protected function _before()
     {
         $this->targetLoc = 'tests/unit/targets/' . $this->_target();
     }
 
+    /**
+     * [_after description]
+     * @method  _after
+     */
     protected function _after()
     {
     }
