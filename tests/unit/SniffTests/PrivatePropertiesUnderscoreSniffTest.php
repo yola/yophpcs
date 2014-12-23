@@ -4,7 +4,9 @@ namespace tests\unit\SniffTests;
 
 use tests\unit\SniffTest;
 
-
+/**
+ * Test Class to test the PrivatePropertiesUnderscore Sniff
+ */
 class PrivatePropertiesUnderscoreSniffTest extends SniffTest
 {
     use \Codeception\Specify;
@@ -24,6 +26,10 @@ class PrivatePropertiesUnderscoreSniffTest extends SniffTest
      */
     protected $sniff = 'PrivatePropertiesUnderscore';
 
+    /**
+     * Tests the Sniff
+     * @method  testSniff
+     */
     public function testSniff()
     {
         $this->specify('underscore is required for private visibility', function() {
