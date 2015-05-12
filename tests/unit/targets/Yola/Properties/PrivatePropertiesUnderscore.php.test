@@ -1,0 +1,9 @@
+<?php
+
+namespace tests\unit\targets\Yola\Properties;
+
+class SniffTest
+{
+    private $foo;
+    private $_bar;
+}
