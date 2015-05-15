@@ -33,7 +33,7 @@ class SideEffectsSniffTest extends SniffTest
     public function testSniff()
     {
         $this->specify('require* should not give warnings', function() {
-            $this->tester->runShellCommand("vendor/bin/phpcs $this->targetLoc --extensions=.php.test --standard=Yola52", false);
+            $this->tester->runShellCommand("vendor/bin/phpcs $this->targetLoc --extensions=.php.test --standard=Yola", false);
             $this->tester->dontSeeInShellOutput('1 | WARNING | A file should declare new symbols (classes, functions,');
         });
     }

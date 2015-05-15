@@ -4,7 +4,7 @@
  * Copied from PSR1 Standard Sniffs > Files > SideEffectsSniff.php
  * Ignores `require` and `require_once` statements
  */
-class Yola52_Sniffs_Files_SideEffectsSniff implements PHP_CodeSniffer_Sniff
+class Yola_Sniffs_Files_SideEffectsSniff implements PHP_CodeSniffer_Sniff
 {
 
 
