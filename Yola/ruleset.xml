@@ -4,5 +4,11 @@
     <rule ref="PSR2">
         <!-- Property names MUST start with an initial underscore if they are private. -->
         <exclude name="PSR2.Classes.PropertyDeclaration"/>
+
+        <!-- PHP 5.2 Cruft -->
+        <!-- Ignore Class Namespace Errors. -->
+        <exclude name="PSR1.Classes.ClassDeclaration"/>
+        <!-- Ignore Side Effects Warnings -->
+        <exclude name="PSR1.Files.SideEffects"/>
     </rule>
 </ruleset>
