@@ -1,12 +1,19 @@
 {
     "name": "yola/yophpcs",
     "description": "Yola.com PHP Code Standard",
-    "minimum-stability": "dev",
-    "require": {
-        "php": ">=5.1.2",
-        "squizlabs/php_codesniffer": "2.*"
-    },
+    "keywords": ["phpcs", "style guide"],
+    "homepage": "https://github.com/yola/yophpcs",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Yola Engineering",
+            "email": "engineering@yola.com"
+        }
+    ],
+    "minimum-stability": "stable",
     "require-dev": {
+        "php": ">=5.4",
+        "squizlabs/php_codesniffer": "2.*",
         "codeception/codeception": "^2.0.9",
         "codeception/specify": "0.4.*"
     }
