@@ -23,8 +23,13 @@ The base standard, it is derived from the [PSR-2 Coding Style Guide](https://git
 
 ### Differences
 
-#### 4.2 Properties
+#### 2.3 Side Effects
+Side Effects warnings are ignored for `require*` statements.
 
+#### 3 Namespace and Class Names
+PHP 5.2 does not support the use of namespaces.
+
+#### 4.2 Properties
 Property names SHOULD be prefixed to indicate private visibility.
 
 ```php
@@ -38,17 +43,6 @@ class ClassName
     private $_baz = null;
 }
 ```
-
-## Yola52 Standard
-The base standard is the Yola Standard above.
-
-### Differences
-
-#### 2.3 Side Effects
-Side Effects warnings are ignored. **Note:** A file SHOULD still be free of side-effects, but unfortunately the `reqiures` are necessary and throw warnings.
-
-#### 3 Namespace and Class Names
-PHP 5.2 does not support the use of namespaces.
 
 ## Tests
 Included are unit tests. To run tests:
